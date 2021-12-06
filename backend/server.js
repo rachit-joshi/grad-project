@@ -85,7 +85,7 @@ app.get("/dataset", (req, res) => {
     const database = [
         {
             id : 1,
-            dataset: "WikiFeb2007",
+            dataset: "WikiFeb2017",
             models: ['FastText', 'GloVe', 'Word2Vec'],
             modelData: {
                 FastText: fastText_wiki, 
